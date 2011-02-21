@@ -1,0 +1,116 @@
+[
+    {
+        "model" : "bakul.NodeType",
+        "pk" : 1,
+        "fields" : {
+            "name" : "bakul:node",
+            "extends" : "",
+            "author" : "",
+            "description" : "Default node type",
+            "short_description" : "Default node",
+            "viewer" : ""
+        }
+    },
+    {
+        "model" : "bakul.NodeType",
+        "pk" : 2,
+        "fields" : {
+            "name" : "bakul:property",
+            "extends" : "",
+            "author" : "",
+            "description" : "Default node type",
+            "short_description" : "Default node",
+            "viewer" : ""
+        }
+    },
+
+    {
+        "model" : "bakul.FieldType",
+        "pk" : 1,
+        "fields" : {
+            "name" : "string",
+            "classname" : "StringProperty"
+        }
+    },
+    {
+        "model" : "bakul.FieldType",
+        "pk" : 2,
+        "fields" : {
+            "name" : "boolean",
+            "classname" : "BooleanProperty"
+        }
+    },
+    {
+        "model" : "bakul.FieldType",
+        "pk" : 3,
+        "fields" : {
+            "name" : "nullboolean",
+            "classname" : "NullBooleanProperty"
+        }
+    },
+    {
+        "model" : "bakul.FieldType",
+        "pk" : 4,
+        "fields" : {
+            "name" : "date",
+            "classname" : "DateProperty"
+        }
+    },
+    {
+        "model" : "bakul.FieldType",
+        "pk" : 5,
+        "fields" : {
+            "name" : "datetime",
+            "classname" : "DateTimeProperty"
+        }
+    },
+    {
+        "model" : "bakul.FieldType",
+        "pk" : 6,
+        "fields" : {
+            "name" : "decimal",
+            "classname" : "DecimalProperty"
+        }
+    },
+    {
+        "model" : "bakul.FieldType",
+        "pk" : 7,
+        "fields" : {
+            "name" : "decimal",
+            "classname" : "DecimalProperty"
+        }
+    },
+    {
+        "model" : "bakul.FieldType",
+        "pk" : 8,
+        "fields" : {
+            "name" : "float",
+            "classname" : "FloatProperty"
+        }
+    },
+    {
+        "model" : "bakul.FieldType",
+        "pk" : 9,
+        "fields" : {
+            "name" : "integer",
+            "classname" : "IntegerProperty"
+        }
+    },
+    {
+        "model" : "bakul.FieldType",
+        "pk" : 10,
+        "fields" : {
+            "name" : "text",
+            "classname" : "TextProperty"
+        }
+    },
+    {
+        "model" : "bakul.FieldType",
+        "pk" : 11,
+        "fields" : {
+            "name" : "time",
+            "classname" : "TimeProperty"
+        }
+    }
+
+]
