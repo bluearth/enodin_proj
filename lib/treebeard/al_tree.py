@@ -6,9 +6,8 @@ from django.db import models, transaction, connection
 from treebeard.models import Node
 from treebeard.exceptions import InvalidMoveToDescendant
 
-from polymorphic import PolymorphicManager
 
-class AL_NodeManager(PolymorphicManager):
+class AL_NodeManager(models.Manager):
     "Custom manager for nodes."
 
     def get_query_set(self):
@@ -156,7 +155,7 @@ class AL_Node(Node):
 
     def add_child(self, **kwargs):
         "Adds a child to the node."
-        newobj = self.create_node_type(**kwargs)
+        newobj = self.__class__(**kwargs)
         try:
             newobj._cached_depth = self._cached_depth + 1
         except AttributeError:

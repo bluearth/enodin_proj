@@ -1,0 +1,32 @@
+[
+    {
+        "model" : "bakul.NodeType",
+        "pk" : 4,
+        "fields" : {
+            "name" : "enodin:nota",
+            "extends" : "",
+            "author" : "",
+            "description" : "Enodin nota",
+            "short_description" : "Nota",
+            "viewer" : ""
+        }
+    },
+    {
+        "model" : "bakul.NodeTypeField",
+        "pk" : 1,
+        "fields" : {
+            "name" : "subject",
+            "field_type" : 1,
+            "node_type" : 3
+        }
+    },
+    {
+        "model" : "bakul.NodeTypeField",
+        "pk" : 2,
+        "fields" : {
+            "name" : "author",
+            "field_type" : 1,
+            "node_type" : 3
+        }
+    }
+]

@@ -18,8 +18,20 @@
             "name" : "bakul:property",
             "extends" : "",
             "author" : "",
-            "description" : "Default node type",
-            "short_description" : "Default node",
+            "description" : "Default property type",
+            "short_description" : "Default property",
+            "viewer" : ""
+        }
+    },
+    {
+        "model" : "bakul.NodeType",
+        "pk" : 3,
+        "fields" : {
+            "name" : "bakul:workspace",
+            "extends" : "",
+            "author" : "",
+            "description" : "Default workspace type",
+            "short_description" : "Default workspace",
             "viewer" : ""
         }
     },
